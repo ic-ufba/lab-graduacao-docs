@@ -4,7 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const orgName = "ic-ufba";
+const orgName = 'ic-ufba';
+const repoName = 'lab-graduacao-docs';
 
 const config: Config = {
   title: 'IC UFBA - Wiki',
@@ -12,7 +13,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://${orgName}.github.io`,
+  url: `https://${orgName}.github.io/${repoName}/`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
