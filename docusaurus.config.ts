@@ -13,10 +13,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://${orgName}.github.io/${repoName}/`,
+  url: `https://${orgName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: `/${repoName}/`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
